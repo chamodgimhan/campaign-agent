@@ -1,0 +1,21 @@
+{
+  "events": [
+    { "id": "evt-101", "name": "Founder Breakfast", "date": "2026-11-12", "city": "Amsterdam", "capacity": 40, "tags": ["founders", "early-stage"] },
+    { "id": "evt-102", "name": "Scale-up Night", "date": "2026-11-19", "city": "Rotterdam", "capacity": 120, "tags": ["scale-up", "investors"] },
+    { "id": "evt-103", "name": "AI in Operations", "date": "2026-12-03", "city": "Utrecht", "capacity": 80, "tags": ["ai", "operations"] }
+  ],
+  "contacts": [
+    { "id": "c-1", "name": "Iris de Vries", "email": "iris@example.com", "segment": "founders", "city": "Amsterdam" },
+    { "id": "c-2", "name": "Tomas Jansen", "email": "tomas@example.com", "segment": "founders", "city": "Amsterdam" },
+    { "id": "c-3", "name": "Lena Hoffmann", "email": "lena@example.com", "segment": "investors", "city": "Rotterdam" },
+    { "id": "c-4", "name": "Sven Bakker", "email": "sven@example.com", "segment": "scale-up", "city": "Rotterdam" },
+    { "id": "c-5", "name": "Priya Nair", "email": "priya@example.com", "segment": "operations", "city": "Utrecht" },
+    { "id": "c-6", "name": "Marco Rossi", "email": "marco@example.com", "segment": "ai", "city": "Utrecht" },
+    { "id": "c-7", "name": "Anna Visser", "email": "anna@example.com", "segment": "founders", "city": "Utrecht" }
+  ],
+  "registrations": [
+    { "eventId": "evt-101", "contactId": "c-1", "status": "registered" },
+    { "eventId": "evt-101", "contactId": "c-2", "status": "registered" },
+    { "eventId": "evt-102", "contactId": "c-3", "status": "registered" }
+  ]
+}
